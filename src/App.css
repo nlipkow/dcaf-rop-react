@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.dropdown-button .btn {
+  background-color: #2bbbad !important;
+  border-color: #2bbbad;
+  text-transform: none !important;
+  padding: 10px 14px; /* Some padding */
+  font-size: 18px; /* Set a font size */
+}
+
+.btn {
+  text-transform: none !important;
+}
+
+.modal {
+  color: #282c34;
+  display: block !important; }
+
+.btn:hover {
+  background-color: #41a0f4 !important;
+}
+
+.warning {
+  color: #ff0000;
+}
+
+#modal-spinner {
+  display: none;
+}
+
+nav.navbar.navbar-dark.fixed-top.navbar-expand-md.dark-blue {
+  background-color: #282c34;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.navbar {
+  font-size: large;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #045EA2 !important;
+  color: #fff !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  background-color: #41a0f4;
+  color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover {
+  background-color: #047DA2;
+}
+
+.dropdown-icon {
+  padding-right: 10px;
+}
+
+.square {
+  background: #999;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
